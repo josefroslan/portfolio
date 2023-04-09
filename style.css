@@ -1,0 +1,158 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container-1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-1 p {
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  .container-2 {
+    display: flex;
+  }
+
+  .container-3 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .container-4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutme {
+    max-width: 50%;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 50px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul li a:hover {
+    color: #666;
+  }
+  
+  #about {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+
+  #about img {
+    border-radius: 50%;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: solid 1px black;
+  }
+
+  p {
+    text-align: center;
+  }
+  
+  #projects {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-1 img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .container-1 p {
+    text-align: justify;
+  }
+  
+  .project img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .skill img {
+    width: auto;
+    height: 75px;
+    border: none;
+  }
+
+  #contact {
+    background-color: #f7f7f7 ;
+  }
+
+  .contact img {
+    width: fit-content;
+    height: 50px;
+    border: none;
+    margin: 20px 10px;
+  }
+  
+  footer {
+    font-size: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  
