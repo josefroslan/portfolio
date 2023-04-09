@@ -1,8 +1,5 @@
-const moreInfoBtns = document.querySelectorAll('.more-info-btn');
+const myImage = document.getElementsByClassName('');
 
-moreInfoBtns.forEach((btn) => {
-  btn.addEventListener('click', () => {
-    const moreInfo = btn.nextElementSibling;
-    moreInfo.classList.toggle('active');
-  });
+myImage.addEventListener('click', () => {
+  myImage.classList.add('clicked');
 });
