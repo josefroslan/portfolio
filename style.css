@@ -44,9 +44,11 @@
   }
   
   header {
-    background-color: #333;
+    width: 100%;
+    background-color: rgb(197, 251, 202);
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    z-index: 2;
   }
   
   nav ul {
@@ -61,7 +63,7 @@
   
   nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
   
   nav ul li a:hover {
@@ -109,6 +111,12 @@
   
   .project {
     text-align: center;
+    position: relative;
+  }
+  
+  .project a.clicked {
+    /* Add a class to the clicked anchor tag */
+    opacity: 0.2;
   }
 
   .container-1 img {
@@ -131,10 +139,6 @@
   .project img:hover {
     transform: scale(1.2);
     z-index: 1;
-  }
-
-  .project img.clicked {
-    opacity: 0.7;
   }
 
   .skill img {
@@ -169,8 +173,8 @@
   
   footer {
     font-size: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color: rgb(197, 251, 202);
+    color: black;
     text-align: center;
     padding: 20px;
   }
